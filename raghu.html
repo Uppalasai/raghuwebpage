@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghu-eng-college</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            background-color:brown;
+            padding: 0px 0px 6px 0px;
+            text-align: center;
+            border: 2px solid brown;
+            height: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+            font-size:14px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin:0px 0px 0px 30px ;
+            
+        }
+        a:hover{
+            color :aquamarine ;
+
+        }
+        .banner1{
+             padding: 8px 0px 8px 100px;
+             margin-left: 20px;
+        }
+        .banner{
+            padding: 8px 10px 8px 20px;
+            margin-left: 30px;
+        }
+        .div{
+            background-color:brown;
+            padding: 0px 0px 6px 0px;
+            text-align: center;
+            border: 2px solid brown;
+            height: 20px;
+            position: sticky;
+            top: 0px; 
+        }
+    .div a ul.drop1 {
+    display: none;
+    position: absolute;
+    color: black;
+    min-width: 160px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+}
+.div a:hover ul.drop1 {
+    display:block;
+    margin-top:5px;
+}
+.drop1 li {
+    list-style-type: none;
+    text-align: left;
+    padding: 12px 7px;
+    position: relative;
+}
+.drop1 li:hover {
+    background-color:rgba(241, 25, 25, 0.916);
+    color:white;
+}
+.drop1 li {
+    background-color: gainsboro;
+   
+}
+
+.drop1 li:hover {
+    background-color:rgba(241, 25, 25, 0.916);
+    font-style: italic;
+}
+
+        a{
+            text-decoration: none;
+            padding: 5px;
+            cursor: pointer;
+        }
+        a:hover{
+            color:black;
+            background-color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size:14px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin:0px 0px 0px 30px ;
+            
+        }
+        a:hover{
+            color:green ;
+
+        }
+         
+
+        .img0{
+            width: 100%;
+        }
+        .hello{
+            height: 700px;
+            justify-content: center;
+            color:brown;
+        }
+        
+        span.fan{
+            font-size: 50px;
+            color: rgb(236, 236, 11);
+            font-family: none;
+        }
+        h1.class{
+            font-size: 30px;
+            font-family: sans-serif;
+            color:rgb(236, 236, 11) ;
+
+        }
+        h1{
+            color: white;
+            font-family: sans-serif;
+        }
+        p{
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+        }
+        .pyramid{
+            justify-content: center;
+            align-content: center;
+        }
+        .row2{
+            padding-top:60px;
+        }
+        .box img{
+            padding: 10px;
+        }
+        .row3{
+            padding-top:60px;
+        }
+        .row4{
+            padding-top:60px;
+        }
+        .row5{
+            padding-top:60px;
+        }
+        .why{
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            font-family: sans-serif;
+            font-size:40px;
+            color: black;
+            margin: 40px 0px 0px 60px ;
+        }
+        .color{
+            color:brown;
+        }
+        .square{
+            height: 450px;
+            justify-content: center;
+            align-content: center;
+            background: none;
+            border: unset;
+            margin-bottom: 150px;
+            justify-content: space-evenly;
+        }
+        .bot{
+            display: flex;
+            flex-direction: row;
+            background: none;
+            border: unset;
+            justify-content: center;
+        }
+        .para{
+            padding:40px 10px 15px;
+            text-align: center;
+        }
+        .bot .para {
+            border: 2px solid rgb(87, 86, 86);
+            width: 225px;
+            height: 50px;
+            color: black;
+            margin: 25px;
+            border-radius: 4px;
+            background-color: rgba(245, 241, 241, 0.866);
+        }
+        .bot1{
+            display: flex;
+            flex-direction: row;
+            background: none;
+            border: unset;
+            justify-content: center;
+            padding-top: 150px;
+        }
+        .bot1 .para {
+            border: 2px solid black;
+            width: 225px;
+            height: 50px;
+            color: black;
+            margin: 25px;
+            border-radius: 4px;
+            background-color: rgba(245, 241, 241, 0.866);
+        }
+        .bot2{
+            display: flex;
+            flex-direction: row;
+            background: none;
+            border: unset;
+            justify-content: center;
+            padding-top: 150px;
+        }
+        .bot2 .para {
+            border: 2px solid black;
+            width: 225px;
+            height: 50px;
+            color: black;
+            margin: 25px;
+            border-radius: 4px;
+            background-color: rgba(245, 241, 241, 0.866);
+        }
+        .block{
+            height: 450px;
+            width: 100%;
+        }
+        .mini{
+            text-align: left;
+            font-family: sans-serif;
+            padding: 30px 0px 0px 100px;
+        }
+        .main-block{
+            display: flex;
+            margin: 50px 100px 50px;
+            padding:0px 10px 0px;
+            justify-content: space-evenly;
+           
+        }
+        h3{
+            text-align: left;
+            padding-top: 10px;
+            color: white;
+            font-family: sans-serif;
+        }
+        .mini-sub{
+            text-align: left;
+            padding-top:10px ;
+            color:antiquewhite;
+        }
+        .sub1 img {
+            width: 275px;
+            height: 150px;
+        }
+        .sub2 img {
+            width: 275px;
+            height: 150px;
+        }
+        .sub3 img {
+            width: 275px;
+            height: 150px;
+        }
+        .sub4 img {
+            width: 275px;
+            height: 145px;
+        }
+        h4{
+            text-align: left;
+            font-weight: 900;
+            font-family: sans-serif;
+            color: white;
+            padding-top: 10px;
+        }
+        .news{
+            color:brown;
+            padding: 30px 0px 0px 100px;
+
+        }
+        .head{
+            width: 100%;
+            height: 450px;
+            display: flex;
+            background-color: white;
+            border: none;
+            margin: 50px 30px 50px;
+            padding:0px 0px 0px;
+        }
+        .r1 img{
+            border: 0px solid black;
+            width: 350px;
+            height: 300px;
+        }
+        .r1{
+            border: 1px solid black;
+            width: 390px;
+            height: 380px;
+            background-color:aliceblue;
+            margin: 0px 30px 0px 75px;
+           
+        }
+        .r2{
+            border: 1px solid black;
+            width: 390px;
+            height: 380px;
+            background-color:aliceblue;
+            margin-right: 30px;
+        }
+        .r3{
+            border: 1px solid black;
+            width: 390px;
+            height: 380px;
+            background-color: aliceblue;
+        }
+        .r2 img{
+            border: 0px solid black;
+            width: 350px;
+            height: 300px;
+
+        }
+        .r3 img{
+            border: 0px solid black;
+            width: 350px;
+            height: 300px;
+        }
+        .new{
+            font-family: sans-serif;
+            padding-top: 10px;
+            color: black;
+            font-weight: 700;
+            font-size: 12px;
+
+        }
+        .last{
+            width: 100%;
+            height: 625px;
+        }
+        .bottom{
+            display: flex;
+            
+            
+        }
+        .bottom1{
+            border: 0px solid white;
+            width: 125px;
+            height: 200px;
+            margin: 30px 0px 0px 90px;
+        }
+        .bottom1 .bat{
+            text-align: left;
+            font-size: 14px;
+            font-weight: normal;
+            font-family: sans-serif;
+        }
+        .bat1{
+            padding-bottom: 5px;
+        }
+        .bottom2{
+            border: 0px solid white;
+            width: 205px;
+            height: 200px;
+            margin: 30px 0px 0px 90px;
+        }  
+        .bottom2 .bat{
+            text-align: left;
+            font-size: 14px;
+            font-weight: normal;
+            font-family: sans-serif;
+        }
+        ul{
+            color: white;
+            font-size: 15px;
+            list-style-type: circle;
+        }
+        .bottom3{
+            border: 0px solid white;
+            width: 190px;
+            height: 200px;
+            margin: 30px 90px 0px 190px;
+        }  
+        .bottom3 .bat{
+            text-align: left;
+            font-size: 14px;
+            font-weight: normal;
+            font-family: sans-serif;
+        }
+    
+      
+       </style> 
+</head>
+<body>
+    <div>
+        <a href="">ALUMNI</a>
+        <a href="">AICTE</a>
+        <a href="">NAAC</a>
+        <a href="">IQAC</a>
+        <a href="">IIC</a>
+        <a href="">NBA</a>
+        <a href="">NPTEL</a>
+        <a href="">NIRF</a>
+        <a href="">ISO</a>
+        <a href="">IIRS-ISRO</a>
+        <a href="">ICT-Tools</a>
+        <a href="">MATLAB</a>
+        <a href="">ABC</a>
+        <a href="">BCDE</a>
+        <a href="fee-payment.html">FEE E-PAYMENTS</a>
+    </div>
+    <img width="200" height="51" src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/RAGHU-Engineering-Collegelogo-1-1.png"alt="college logo" class="banner1">
+    <img width="60" height="51"src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/naac-a-header-badge-1-1.png"alt="" class="banner">
+    <img width="50" height="51"src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/ugc-header-badge.png"alt="" class="banner">
+    <img width="75" height="51"src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/nba-header-badge.png"alt="" class="banner">
+    <img width="45" height="51"src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/jntug-header-badge.png"alt="" class="banner">
+    <img width="55" height="51"src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/aicte-header-badge.png"alt="" class="banner">
+    <img width="55" height="51"src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/iso-header-badge.png"alt="" class="banner">
+    <div class="div">
+        <a href="raghu.html">Home
+            <ul class="drop1" style="margin-left: 94px;">
+                <li>Who We Are</li>
+                <li>Awards & Accreditations</li>
+                <li>Vision & Mission</li>
+                <li>Leadership</li>
+                <li>Governing Body</li>
+                <li>Academic Council</li>
+                <li>Organization Chart</li>
+            </ul>
+        </a>
+        <a href="">Academics
+            <ul class="drop1" style="margin-left: 176px;">
+                <li>Programs</li>
+                <li>Admissions</li>
+                <li>Committees</li>
+                <li>Academic Year Calendars</li>
+                <li>Departments</li>
+                <li>Research</li>
+                <li>Students Feedbac</li>
+            </ul>
+        </a>
+        <a href="ncc.html">NCC</a>
+        <a href="nss.html">NSS</a>
+        <a href="">Sports</a>
+        <a href="">Placements</a>
+        <a href="">Library</a>
+        <a href="">News</a>
+        <a href="">Events</a>
+        <a href="">Amenities
+            <ul class="drop1" style="margin-left: 881.6px;">
+                <li>Campus Tour</li>
+                <li>Campus Residency</li>
+                <li>Transportation</li>
+                <li>Infrastructure</li>
+                <li>ATM Facility</li>
+                <li>24/7 Wifi Availability</li>
+                <li>Water Plant</li>
+                <li>Cafeteria</li>
+                <li>Security</li>
+                <li>Gymnasium</li>
+                <li>Parking</li>
+            </ul>
+        </a>
+        <a href="">Evalution
+            <ul class="drop1" style="margin-left: 987px;">
+                <li>Exam Notifications</li>
+                <li>Exam Time Tables</li>
+                <li>Result Notifications</li>
+                <li>Academic Regulation</li>
+                <li>Annual Reports</li>
+                <li>Exam Results</li>
+                <li>Exam Section</li>
+            </ul>
+        </a>
+        <a href="">Student Chapters</a>
+        <a href="">Student Club </a>
+        <a href="">News Letter</a>
+      </div>
+       <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/07/Image-5-1.png"alt="" class="img0">
+     <div class="hello">
+        <br><br>
+        <h1 class="class">Impeccable Placements Record</h2>
+        <h1><span class="fan">5023</span>placements in <span class="fan">100+</span>global corporates from <span class="fan">2022 to 2024</span></h1>
+        <p>Join us to tap the most lucrative job opportunities right at the launch because of the focused training education underpinning the academic</p>
+        <p>foundation. We lead in mining for opportunities with the highest packages!</p>
+        <p>Single Destination for Countless opportunities.</p>
+        <div class="Pyramid">
+            <div class="row1">
+                <div class="box">
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-47-1.png"alt=""width="115px" height="60px">
+                </div>
+             </div>
+             <div class="row2" >
+                <div class="box">
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/IBM-1.png"alt=""width="115px" height="60px">
+                <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-37.png"alt=""width="115px" height="60px">
+             <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-36.png"alt=""width="115px" height="60px">
+            </div>
+            <div class="row3">
+                <div class="box">
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-34-1.png"alt=""width="115px" height="60px"> 
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-40-1.png"alt=""width="115px" height="60px"> 
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-39-1.png"alt=""width="115px" height="60px"> 
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/cognizant1.png"alt=""width="115px" height="60px"> 
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/MicrosoftTeams-image-34.jpg"alt=""width="115px" height="60px">
+                </div>
+            </div>
+            <div class="row4">
+                <div class="box">
+                     <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/amadeus1.png"alt=""width="115px" height="60px">
+                     <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-57.jpg"alt=""width="115px" height="60px">
+                     <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-49.png"alt=""width="115px" height="60px">
+                     <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-42.png"alt=""width="115px" height="60px">
+                     <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-35-1.png"alt=""width="115px" height="60px">
+                     <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/HCL.png"alt=""width="115px" height="60px">
+                     <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-56.jpg"alt=""width="115px" height="60px">
+                </div>
+            </div>
+            <div class="row5">
+                <div class="box"> 
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-48-1.png"alt=""width="115px" height="60px">
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/cyient.png"alt=""width="115px" height="60px">
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/1WNS-1.png"alt=""width="115px" height="60px">
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/MicrosoftTeams-image-33.jpg"alt=""width="115px" height="60px">
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/flipkart-1.png"alt=""width="115px" height="60px">
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-44.png"alt=""width="115px" height="60px">
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/ZOHO-1.png"alt=""width="115px" height="60px">
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/vadafone.png"alt=""width="115px" height="60px">
+                      <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/06/effotronics-1.png"alt=""width="115px" height="60px"> 
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+        <h1 class="why">Why study at <span class="color">Raghu Engineering College ?</span></h1>
+        <div class="square">
+            <div class="bot">
+            <p class="para">31 Years of committed excellence in education</p>
+            <p class="para">JNTUK Recognized Research Centre</p>
+            <p class="para">Ranked No.1 in North Andhra for Placements</p>
+            <p class="para">Accredited by NAAC with ‘A+’ Grade</p>
+            </div>
+            <div class="bot1">
+                <p class="para">12b & 2f Autonomous</p>
+                <p class="para">Re-Accredited by NBA</p>
+                <p class="para">50 Acres of Sprawling Campus</p>
+                <p class="para">Industrial collabrations & Partnerships</p>
+            </div>
+            <div class="bot2">
+                <p class="para">Top-Notch Infrastructure</p>
+                <p class="para">ISO 9001:2015</p>
+                <p class="para">ISO 14001:2015</p>
+                <p class="para">AICTE</p>
+             </div>
+        </div>
+        <div class="block">
+             <h1 class="mini">Diversity at REC</h1>
+             <div class="main-block">
+                <div class="sub1">
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Campus-life.png"alt="">
+                    <h3>Campus life</h3>
+                    <p class="mini-sub">Freedom to expose your talents & independence to explore your strengths</p>
+                    <h4>know more ></h4>
+                </div>
+                <div class="sub2">
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Student-Clubs.jpg"alt="">
+                    <h3>Student Clubs</h3>
+                    <p class="mini-sub">Get involved in extracurricular clubs to explore your passion</p>
+                    <h4>know more ></h4>
+                </div>
+                <div class="sub3">
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Sports-at-REC.png"alt="">
+                    <h3>Sports at REC</h3>
+                    <p class="mini-sub">A vibrant campus where Sports, Arts & Cultural activities are a way of life</p>
+                    <h4>know more ></h4>
+                </div>
+                <div class="sub4">
+                    <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Collaborations-Partnership.png"alt="">
+                    <h3>Collaborations & Partnership</h3>
+                    <p class="mini-sub">Engaged in collaboration with industries, software companies, universities & more.</p>
+                    <h4>know more ></h4>
+                </div>
+            </div>
+        </div>
+        <h1 class="news">Latest News</h1>
+        <div class="head">
+            <div class="r1">
+                <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/07/AI-FOR-ENGINEERING-01-03-2024-1024x682-1.png"alt="">
+                <p class="new">Machine Learning& AI Workshop</p>
+            </div>
+            <div class="r2">
+            <img src="https://www.raghuenggcollege.com/wp-content/uploads/2024/07/bootcamp.png"alt="">
+            <p class="new">"Model Smart IoT systems using Arduino and AI"</p>
+        </div>
+        <div class="r3">
+            <img src="https://www.raghuenggcollege.com/wp-content/uploads/2023/12/Faculty-STTP-8910-December-REC-ECE_page-0001.jpg"alt="">
+            <p class="new">A THREE DAY'S FACULTY TRAINING PROGRAMME</p>
+            </div>
+        </div>
+        <div class="last">
+            <div class="bottom">
+                 <div class="bottom1">
+                      <h3 class="bat1">Enroll with us</h3>
+    <p class="bat" style="line-height: 30px;">How to apply</p>
+    <p class="bat"style="line-height: 30px;">Admissions</p>
+    <p class="bat"style="line-height: 30px;">Fee structure</p>
+    <p class="bat"style="line-height: 30px;">Student welfare</p>
+    <p class="bat"style="line-height: 30px;">Help desk</p>
+    </div>
+    <div class="bottom1">
+        <h3 class="bat1">About us</h3>
+<p class="bat" style="line-height: 30px;">About REC</p>
+<p class="bat"style="line-height: 30px;">The Chairman desk</p>
+<p class="bat"style="line-height: 30px;">Governing Council</p>
+<p class="bat"style="line-height: 30px;">Grievances Cell</p>
+</div>
+<div class="bottom1">
+    <h3 class="bat1">Grow with us</h3>
+<p class="bat" style="line-height: 30px;">Placements</p>
+<p class="bat"style="line-height: 30px;">Carere Development</p>
+<p class="bat"style="line-height: 30px;">Incubation Center</p>
+<p class="bat"style="line-height: 30px;">RAGHU Connects MATLAB</p>
+<p class="bat"style="line-height: 30px;">Culture at REC</p>
+<p class="bat"style="line-height: 30px;">Alumini</p>
+<p class="bat"style="line-height: 30px;">Jobs at REC</p>
+
+</div>
+<div class="bottom2">
+    <h3 class="bat1">Quick Links</h3>
+<p class="bat"style="line-height: 30px;">Innovation and Startup Policies</p>
+<p class="bat"style="line-height: 30px;">AICTE</p>
+<p class="bat"style="line-height: 30px;">IIC</p>
+<p class="bat"style="line-height: 30px;">RTI</p>
+<p class="bat"style="line-height: 30px;">Mandatory-Disclosure</p>
+<p class="bat"style="line-height: 30px;">IQAC</p>
+<p class="bat"style="line-height: 30px;">NAAC</p>
+<p class="bat"style="line-height: 30px;">Academic Bank of Credits (ABC)</p>
+<p class="bat"style="line-height: 30px;">Ombudsman</p>
+<p class="bat"style="line-height: 30px;">GRIEVANCE</p>
+<ul class="bat"style="line-height: 30px;">
+    <li>Staff Grievance & Redressal</li>
+    <li>Women Grievance & Redressal</li>
+    <li> Students Grievance & Redressal</li>
+  </ul>  
+<p class="bat"style="line-height: 30px;">Skill Enhancement Activity</p>
+<p class="bat"style="line-height: 30px;">Code of Conduct</p>
+<p class="bat"style="line-height: 30px;">Best Practices</p>
+<p class="bat"style="line-height: 30px;">Self-Declaration</p>
+<p class="bat"style="line-height: 30px;">Policies</p>
+</div>
+<div class="bottom3">
+    <h3 class="bat1">Get in touch with us</h3>
+<p class="bat" style="line-height: 30px;">info@raghuengcollege.in</p>
+<p class="bat"style="line-height: 30px;">08922-248001 /248002</p>
+<p class="bat"style="line-height: 30px;">8297355115</p>
+<p class="bat"style="line-height: 30px;">(Training & Placements)</p>
+<p class="bat"style="line-height: 20px;">Dakamarri,Bheemunipatnam mandal,Visakhapatnam-531162</p>
+</div>
+    </div>
+</div>
+        
+        </body>
+</html>
